@@ -1,8 +1,19 @@
-site_name: Material for a Complementary Analysis of the Reaction about Modeling Problems on BPMN 2.0-based Tools
+site_name: A Complementary Analysis of the Reaction about Modeling Problems on BPMN 2.0-based Tools
 
 nav:
     - Home:
-      - index.md
+      - Research Material Repository: index.md
+      - Visual Feedback about Problems presented by Modeling Tools: 
+        - Adonis: tools/adonis.md
+        - ARIS: tools/aris.md
+        - Bizagi: tools/bizagi.md
+        - Blueworks: tools/blueworks.md
+        - Bonita: tools/bonita.md
+        - Camunda: tools/camunda.md
+        - Oracle BPM: tools/oraclebpm.md
+        - QualiBPMN: tools/qualibpmn.md
+        - Signavio: tools/signavio.md
+        - Visio: tools/visio.md
 
 theme:
   name: material
