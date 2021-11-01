@@ -1,0 +1,66 @@
+site_name: Material for a Complementary Analysis of the Reaction about Modeling Problems on BPMN 2.0-based Tools
+
+nav:
+    - Home:
+      - index.md
+
+theme:
+  name: material
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    - instant
+    - sections
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - search.highlight
+  plugins:
+    - search
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+    - abbr
+    - md_in_html
+    - toc:
+        permalink: true
+    - admonition
+    - codehilite
+    - def_list
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.tabbed
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.superfences
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - toc:
+        permalink: "#"
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+        options:
+          custom_icons:
+            - assets/.icons
